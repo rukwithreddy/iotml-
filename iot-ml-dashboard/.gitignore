@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+
+# Environment
+.env
+frontend/.env
+backend/.env
+
+# Data and artifacts
+/data/raw/
+/data/processed/
+*.pkl
+*.joblib
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
